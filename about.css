@@ -1,0 +1,243 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  /*   font-family: 'Parisienne', cursive;*/
+
+  body {
+    font-family: 'Playfair Display', serif;
+    font-size: 12px;
+    width: 100%;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+  }
+  
+  h1{
+    font-size: 60px;
+  }
+  
+  h2{
+    font-size: 30px;
+  }
+  
+  h3{
+    font-size: 20px;
+  }
+  
+  h4{
+    font-size: 16px; 
+  }
+  
+  h5{
+    font-size: 12px;
+  }
+  
+  p{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  nav{
+    background-color: #efefef;
+    padding: 20px 20px;
+    width: 100%;
+  }
+  
+  .vocalist-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+  }
+  
+  .links > a{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  a:hover {
+        color: #c8001d;
+     }
+  
+  .links{
+    padding: 20px;
+    
+  }
+  
+  .company-container{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; 
+      padding: 100px;
+      margin: auto;
+      max-width: 67%;
+     
+  }
+
+  .company-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    grid-gap: 40px;
+    margin: auto; 
+    padding: 40px; 
+    border: 2px solid #efefef; 
+    border-bottom: none; 
+
+  }
+
+  .company-info-1{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      border-right: 2px solid #efefef; 
+  }
+
+  .company-info-2{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 40px 0px 0px 0px ; 
+
+  }
+
+  .perks{
+      display: flex; 
+      align-items: center; 
+      flex-direction: row;
+      justify-content: center; 
+      padding: 40px 20px;
+  }
+
+  label {
+      padding: 10px; 
+  }
+
+  .company-website, a{
+      text-decoration: none; 
+      color: black; 
+  }
+
+  .company-website, a:hover{
+      color: #c8001d;
+  }
+
+  .company-logo{
+      padding: 40px; 
+  }
+
+  .company-logo:hover{
+      transform: scale(1.1);
+      transition: 1s ease-out; 
+  }
+
+  .program-description{
+      padding: 40px; 
+      background-color: #efefef; 
+  }
+
+  .gray-box{
+      background-color: #efefef; 
+      display: block; 
+      max-width: 100%;
+      padding: 10px; 
+      margin: auto;
+  }
+
+  .white-box{
+      padding: 10px; 
+  }
+
+.checked{
+    color:#c8001d;
+}
+
+.rating{
+    display: flex; 
+    justify-content: center; 
+    flex-direction: row; 
+    align-items: center; 
+}
+
+.stars{
+    padding: 10px; 
+}
+
+.button{
+  background-color:#c8001d;
+  border-bottom: 2px solid #80011f;
+  border-radius: 4px;
+  font-size: 18px;
+  height: 26px;
+  width: 200px;
+  text-align: center;
+  padding: 7px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.button a{
+  color: white;
+}
+
+.button a:hover{
+  color: black;
+}
+
+.about-info{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-evenly;
+  margin: auto; 
+  padding: 40px; 
+  max-width: 67%;
+  border: 2px solid #efefef; 
+  margin-top: 40px; 
+  margin-bottom: 40px; 
+}
+
+.about-us{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  margin: auto;
+  
+}
+
+.contribute{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  margin: auto;
+  border-left: 2px solid #efefef; 
+}
+
+.about-paragraph{
+  padding: 20px;
+}
+
+.contribute-paragraph{
+  padding: 20px; 
+}
+
+.about-paragraph > p {
+  font-size: 20px; 
+}
+
+.contribute-paragraph > p{
+  font-size: 20px; 
+}
